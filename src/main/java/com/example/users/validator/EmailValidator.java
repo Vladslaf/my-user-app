@@ -1,4 +1,4 @@
-package cinema.lib;
+package com.example.users.validator;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
