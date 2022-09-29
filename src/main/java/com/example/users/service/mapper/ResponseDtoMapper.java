@@ -1,5 +1,5 @@
-package cinema.service.mapper;
+package com.example.users.service.mapper;
 
-public interface ResponseDtoMapper<D, T> {
-    D mapToDto(T t);
+public interface ResponseDtoMapper<M, D> {
+    D mapToDto(M m);
 }
