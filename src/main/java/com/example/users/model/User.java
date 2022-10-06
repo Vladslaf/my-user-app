@@ -27,4 +27,9 @@ public class User {
     private LocalDate birthDate;
     private String address;
     private String phone;
+
+    @Override
+    public String toString() {
+        return "Hello, Vladislav";
+    }
 }
